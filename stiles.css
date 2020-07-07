@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://images.pexels.com/photos/32237/pexels-photo.jpg?cs=srgb&dl=cielo-cielo-estrellado-cosmos-estrellado-32237.jpg&fm=jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw, 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.Image{
+    background-image: url('Images/1572370905488.jpg');
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    border: solid white 5px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 45%;
+    top: 30%;
+}
+
+.name{
+    color: aquamarine;
+    font-family: fantasy;
+    font-size: 4rem;
+    position: absolute;
+    left: 33.3%;
+    top: 55%;
+}
+
+.recidence{
+    color: aquamarine;
+    font-family: sans-serif;
+    font-size: 2rem;
+    position: absolute;
+    left: 32.5%;
+    top: 66.5%;
+}
